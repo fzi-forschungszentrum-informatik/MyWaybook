@@ -1,0 +1,146 @@
+<resources>
+    <!-- German strings -->
+    <string name="app_name">My Waybook</string>
+    <string name="icon_name">My Waybook</string>
+
+    <string name="title_activity_welcome">Willkommen</string>
+    <string name="title_activity_profile">Profil</string>
+    <string name="title_activity_home">Startseite</string>
+    <string name="title_activity_last_tracks">Letzte Wege</string>
+    <string name="title_activity_statistics">Statistiken</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_imprint">Impressum</string>
+    <string name="title_activity_track">TrackActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+    <string name="drawer_open">Navigationsleite öffnen</string>
+    <string name="drawer_close">Navigationsleiste schließen</string>
+    <string name="drawer_title_opened">Navigation</string>
+
+    <!-- Confirmation Dialogs -->
+    <string name="saveConfirmation_message">Weg speichern?</string>
+    <string name="saveConfirmation_yes">Ja</string>
+    <string name="saveConfirmation_no">Nein</string>
+
+    <string name="deleteConfirmation_message">Weg löschen?</string>
+    <string name="deleteConfirmation_yes">Ja</string>
+    <string name="deleteConfirmation_no">Nein</string>
+
+    <string name="continueConfirmation_message">Weg abbrechen oder fortsetzen?</string>
+    <string name="continueConfirmation_continue">Fortsetzen</string>
+    <string name="continueConfirmation_exit">Abbrechen</string>
+
+    <string name="backPress_message">Wegetagebuch beenden? \n(Laufende Aufzeichnungen gehen verloren.)</string>
+    <string name="backPress_yes">Ja</string>
+    <string name="backPress_no">Nein</string>
+
+    <string name="gpsConfirmation_message">GPS ist ausgeschaltet. Um alle Funktionen dieser Anwendung nutzen zu können, müssen Sie GPS aktivieren. GPS jetzt aktivieren?</string>
+    <string name="gpsConfirmation_yes">Ja</string>
+    <string name="gpsConfirmation_no">Nein</string>
+    <!--HomeScreen -->
+    <string name="drawer_title_homescreen_closed">Neuer Weg</string>
+    <string name="button_default_homescreen">Neuen Weg beginnen</string>
+    <string name="button_start_homescreen">Start</string>
+    <string name="button_stop_homescreen">Stop</string>
+    <string name="button_change_mode_homescreen">Verkehrsmittel ändern</string>
+    <string name="button_change_input_homescreen">Angaben ändern</string>
+    <string name="location_permission_check">Sie müssen Ihren Standort freigeben, um fortfahren zu können</string>
+    <string name="GPS_not_enabled">Aktivieren Sie GPS und versuchen Sie es erneut</string>
+    <string name="track_saved">Weg gespeichert!</string>
+
+    <!--Statistics-->
+    <string name="tab_Today">Heute</string>
+    <string name="tab_Week">Woche</string>
+    <string name="tab_Complete">Gesamt</string>
+
+    <!--TrackStats-->
+    <string name="button_delete_trackStats">Diesen Weg löschen</string>
+    <string name="button_edit_trackStats">Diesen Weg bearbeiten</string>
+    <string name="view_track_started_trackStats">Gestartet am:</string>
+    <string name="view_track_length_trackStats">Länge des Weges:</string>
+    <string name="view_track_duration_trackStats">Dauer des Weges:</string>
+    <string name="view_track_modes_trackStats">Verwendete Verkehrsmittel:</string>
+
+    <!--Toasts-->
+    <string name="toast_Purpose">Wegezweck wählen</string>
+    <string name="toast_Mode">Verkehrsmittel wählen</string>
+
+    <!--Imprint-->
+    <string name="link_to_Icons8">https://icons8.com/</string>
+
+
+
+
+    <string-array name="sort_by_date">
+        <item>Heute</item>
+        <item>Gestern</item>
+        <item>Letzte Woche</item>
+        <item>Letzter Monat</item>
+        <item>Gesamt</item>
+    </string-array>
+
+    <string-array name="sort_by_misc">
+        <item>Länge</item>
+        <item>Dauer</item>
+        <item>Zweck</item>
+        <item>Anzahl Teilwege</item>
+    </string-array>
+
+    <string-array name="activity_names">
+        <!--<item>Profil</item>-->
+        <item>Startseite</item>
+        <item>Letzte Wege</item>
+        <item>Statistiken</item>
+
+        <!--<item>Einstellungen</item>-->
+        <item>Impressum</item>
+    </string-array>
+
+    <string-array name="default_modes">
+        <item>Zu Fuß</item>
+        <item>Fahrrad</item>
+        <item>Fahrer</item>
+        <item>Beifahrer</item>
+        <item>Bus</item>
+        <item>Zug</item>
+        <item>Straßenbahn</item>
+    </string-array>
+
+    <string-array name="default_mode_icons">
+        <item>walking</item>
+        <item>bicycle</item>
+        <item>driver</item>
+        <item>passenger</item>
+        <item>bus</item>
+        <item>train</item>
+        <item>tram</item>
+    </string-array>
+
+    <string-array name="default_purposes">
+        <item>Einkaufen</item>
+        <item>Arbeiten</item>
+        <item>Sport</item>
+        <item>Unterricht/Vorlesung</item>
+        <item>Nach Hause</item>
+        <item>Freizeit</item>
+        <item>Erledigungen</item>
+    </string-array>
+
+    <string-array name="default_purpose_icons">
+        <item>shopping</item>
+        <item>work</item>
+        <item>sport</item>
+        <item>classroom</item>
+        <item>home</item>
+        <item>recreation</item>
+        <item>errands</item>
+    </string-array>
+
+
+
+</resources>
